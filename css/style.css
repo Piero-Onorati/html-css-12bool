@@ -10,17 +10,19 @@
 }
 
 .box{
-    min-height: 50px;
+    min-height: 100px;
     background-color: #ffc0cb;
     border: 1px solid black;
     text-align: center;
+    line-height: 100px;
     padding: 10px;
 }
 
 .box-nested{
-    min-height: 50px;
+    min-height: 100px;
     background-color: #f07f80;
     border: 1px solid white;
     text-align: center;
+    line-height: 100px;
     padding: 10px;
 }
