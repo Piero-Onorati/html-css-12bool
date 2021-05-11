@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'VT323', monospace;
+}
+
+h1{
+    font-family: 'Press Start 2P', cursive;
+    text-transform: uppercase;
+    font-size: 10vw;
+}
+
+h2{
+    font-size: 70px ;
+    padding-top: 20px;
+}
+
+.character{
+    background-color: whitesmoke;
+    padding: 96px 0;
+    text-align: center;
+}
+
+/* STEVE palette */
+
+.brown{
+    background-color: #362317;
+    height: 48px;
+}
+
+.light-brown{
+    background-color: #7a5c4b;
+    height: 48px;
+}
+
+.skin{
+    background-color: #f5c197;
+    height: 48px;
+}
+
+.violet{
+    background-color: #330071;
+    height: 48px;
+}
+
+.white{
+    background-color: white;
+    height: 48px;
+}
+
+/* PIG palette */
+
+.pink{
+    background-color: #f291b7;
+    height: 48px;
+}
+
+.light-pink{
+    background-color: #f3c3d3;
+    height: 48px;
+}
+
+.dark-red{
+    background-color: #701635;
+    height: 48px;
+}
+
+.black{
+    background-color: black;
+    height: 48px;
+}
+
+/* SHEEP palette */
+
+.skin2{
+    background-color: #d3a086;
+    height: 48px;
+}
+
+.blue{
+    background-color: #4990f4;
+    height: 48px;
+}
+
+/* SKELETON palette */
+
+.dark-grey{
+    background-color: #929292;
+    height: 48px;
+}
+
+.grey{
+    background-color: lightgray ;
+    height: 48px;
+}
