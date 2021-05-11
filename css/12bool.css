@@ -234,3 +234,58 @@
     .bottom-lg {align-items: flex-end;}
 
 }
+
+/* --------------------LARGE LAPTOP/DESKTOP------------------------ */
+
+@media screen and (min-width:1200px) {
+
+    /* LARGE DEVICE( xl ) */
+    .container {
+        width: 1140px;
+    } 
+
+    /* 12 System */
+    .col-xl {
+        flex-grow: 1;
+        flex-basis: 0;
+        max-width: 100%;
+    }
+
+    /* COL-WIDTH */
+    .col-xl-1 {flex-basis: calc((100% / 12) * 1); max-width: calc((100% / 12) * 1);}
+    .col-xl-2 {flex-basis: calc((100% / 12) * 2); max-width: calc((100% / 12) * 2);}
+    .col-xl-3 {flex-basis: calc((100% / 12) * 3); max-width: calc((100% / 12) * 3);}
+    .col-xl-4 {flex-basis: calc((100% / 12) * 4); max-width: calc((100% / 12) * 4);}
+    .col-xl-5 {flex-basis: calc((100% / 12) * 5); max-width: calc((100% / 12) * 5);}
+    .col-xl-6 {flex-basis: calc((100% / 12) * 6); max-width: calc((100% / 12) * 6);}
+    .col-xl-7 {flex-basis: calc((100% / 12) * 7); max-width: calc((100% / 12) * 7);}
+    .col-xl-8 {flex-basis: calc((100% / 12) * 8); max-width: calc((100% / 12) * 8);}
+    .col-xl-9 {flex-basis: calc((100% / 12) * 9); max-width: calc((100% / 12) * 9);}
+    .col-xl-10 {flex-basis: calc((100% / 12) * 10); max-width: calc((100% / 12) * 10);}
+    .col-xl-11 {flex-basis: calc((100% / 12) * 11); max-width: calc((100% / 12) * 11);}
+    .col-xl-12 {flex-basis: calc((100% / 12) * 12); max-width: calc((100% / 12) * 12);}
+
+    /* OFFSET */
+    .col-xl-offset-1 {margin-left: calc((100% / 12) * 1);}
+    .col-xl-offset-2 {margin-left: calc((100% / 12) * 2);}
+    .col-xl-offset-3 {margin-left: calc((100% / 12) * 3);}
+    .col-xl-offset-4 {margin-left: calc((100% / 12) * 4);}
+    .col-xl-offset-5 {margin-left: calc((100% / 12) * 5);}
+    .col-xl-offset-6 {margin-left: calc((100% / 12) * 6);}
+    .col-xl-offset-7 {margin-left: calc((100% / 12) * 7);}
+    .col-xl-offset-8 {margin-left: calc((100% / 12) * 8);}
+    .col-xl-offset-9 {margin-left: calc((100% / 12) * 9);}
+    .col-xl-offset-10 {margin-left: calc((100% / 12) * 10);}
+    .col-xl-offset-11 {margin-left: calc((100% / 12) * 11);}
+
+    /* ALIGNMENT AND SPACE  */
+    .start-xl {justify-content: flex-start;}
+    .center-xl{justify-content: center;}
+    .end-xl {justify-content: flex-end;}
+    .around-xl {justify-content: space-around;}
+    .between-xl {justify-content: space-between;}
+    .top-xl{align-items: flex-start;}
+    .middle-xl{align-items: center;}
+    .bottom-xl {align-items: flex-end;}
+
+}
